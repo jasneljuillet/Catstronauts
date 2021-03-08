@@ -12,7 +12,7 @@ const TypeDefs = gql `
     type Track {
         id: ID!
         title: String!
-        author: String!
+        author: Author!
         thumbnail: String
         length: Int
         ModulesCount: Int
@@ -20,7 +20,7 @@ const TypeDefs = gql `
 
     " Author of a complete Track "
 
-    type Author {
+     type Author {
         id: ID!
         name: String!
         photo: String
