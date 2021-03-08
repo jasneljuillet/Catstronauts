@@ -21,7 +21,7 @@ const TypeDefs = gql `
     " Author of a complete Track "
 
     type Author {
-        id: Id!
+        id: ID!
         name: String!
         photo: String
     }
