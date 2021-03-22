@@ -7,7 +7,7 @@ const TypeDefs = gql `
         tracksForHome: [Track!]
     }
 
-    " a Track is a group of modules that teaches about a specific topic"
+    " a Track is a group of modules that teaches about a specific topic."
 
     type Track {
         id: ID!
